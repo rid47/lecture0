@@ -20,5 +20,4 @@ You need to manually resolve conflict and then add commit push
 git reset --hard <commit>
 git reset --hard origin/master 
 
-
 (9) To find out commit -hash use : git log and git reflog
