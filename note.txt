@@ -1,0 +1,24 @@
+-------------GIT COMMAND-----------------
+
+(1) git clone <url> to clone a remote repo
+(2) git add fileName: to add a file for git staging
+(3) git commit -m "msg" : to commit (save) the changes made
+(4) git status: to know satatus of local repo
+(5) git pull : to pull changes from remote repo
+(6) git push: to push an existing repo to github
+(7) In case of merge conflict: 
+<<<<<<<<<<<<<<<<<<<<<<<HEAD
+YOUR LOCAL CHANGES
+======================
+REMOTE CHANGES
+>>>>>>>>>>>>>>>>>>>>>commit hash
+
+You need to manually resolve conflict and then add commit push
+
+(8) To reset to a branch:
+
+git reset --hard <commit>
+git reset --hard origin/master 
+
+
+(9) To find out commit -hash use : git log and git reflog
