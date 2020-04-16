@@ -21,3 +21,6 @@ git reset --hard <commit>
 git reset --hard origin/master 
 
 (9) To find out commit -hash use : git log and git reflog
+(10) git branch: to list out all the branch
+(11) git checkhout <branchName>: switch to a particular branch
+(12) git merge <branchName> : to merge branchName with current branch
